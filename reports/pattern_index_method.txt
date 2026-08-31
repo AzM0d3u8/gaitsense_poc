@@ -1,0 +1,12 @@
+GaitSense relative gait-pattern index
+======================================
+This is a research-only relative indicator, not a clinical gait score.
+Higher values indicate greater relative deviation within these recordings.
+It is not a diagnosis, disease prediction, risk score, or medical alert.
+
+Method:
+Each available component is converted to its percentile rank across the usable videos.
+The final index is the equal-weight mean of available components (0-100 approximately).
+Components: timing_asymmetry_percent, knee_range_asymmetry_percent, arm_swing_asymmetry, step_time_variability
+Missing components are excluded; rows with no components receive NaN.
+The index is dataset-relative and should not be compared across datasets without recalibration.

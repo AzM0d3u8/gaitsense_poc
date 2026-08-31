@@ -1,0 +1,47 @@
+{
+  "target": "walking_speed_mps",
+  "features": [
+    "cadence",
+    "step_symmetry_ratio",
+    "step_time_variability",
+    "left_knee_range",
+    "right_knee_range",
+    "knee_range_asymmetry_percent",
+    "left_arm_swing_proxy",
+    "right_arm_swing_proxy",
+    "arm_swing_asymmetry",
+    "hip_center_lateral_sway_proxy"
+  ],
+  "excluded_leakage_columns": [],
+  "imputed_feature_values": {
+    "step_symmetry_ratio": 1,
+    "step_time_variability": 1
+  },
+  "train_participants": [
+    "P_01",
+    "P_03",
+    "P_04"
+  ],
+  "test_participants": [
+    "P_02"
+  ],
+  "prototype_warning": true,
+  "label_warning": true,
+  "models": {
+    "random_forest": {
+      "mae_mps": 0.17064213500000092,
+      "rmse_mps": 0.17064213500000092,
+      "r2": NaN
+    },
+    "linear_baseline": {
+      "mae_mps": 0.042318892803193564,
+      "rmse_mps": 0.042318892803193564,
+      "r2": NaN
+    },
+    "neural_network": {
+      "mae_mps": 0.4898235484203093,
+      "rmse_mps": 0.4898235484203093,
+      "r2": NaN
+    }
+  }
+}

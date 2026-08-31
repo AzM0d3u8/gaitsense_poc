@@ -1,0 +1,15 @@
+video,side,event,frame,timestamp
+IMG_6843,LEFT,step_event,180,3.001
+IMG_6843,LEFT,step_event,218,3.635
+IMG_6843,RIGHT,step_event,256,4.268
+IMG_6843,RIGHT,step_event,286,4.769
+IMG_6843,LEFT,step_event,313,5.219
+IMG_6843,RIGHT,step_event,362,6.036
+IMG_6843,LEFT,step_event,394,6.569
+IMG_6843,RIGHT,step_event,417,6.953
+IMG_6843,LEFT,step_event,418,6.97
+IMG_6843,RIGHT,step_event,476,7.937
+IMG_6843,LEFT,step_event,492,8.204
+IMG_6843,RIGHT,step_event,503,8.387
+IMG_6843,LEFT,step_event,519,8.654
+IMG_6843,RIGHT,step_event,546,9.104

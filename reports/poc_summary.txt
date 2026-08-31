@@ -1,0 +1,36 @@
+GaitSense PoC Summary
+====================
+Research/engineering feasibility PoC; not a medical diagnostic system.
+
+Python: 3.14.7
+Videos: 5
+Participants: 1
+Conditions: normal
+
+Feature missingness:
+  participant: 0.0%
+  video: 0.0%
+  condition: 0.0%
+  view: 0.0%
+  duration_seconds: 0.0%
+  usable_frame_percent: 0.0%
+  step_count: 0.0%
+  cadence: 0.0%
+  mean_step_time: 0.0%
+  step_time_std: 20.0%
+  step_time_variability: 20.0%
+  left_mean_step_time: 0.0%
+  right_mean_step_time: 20.0%
+  step_symmetry_ratio: 20.0%
+  timing_asymmetry_percent: 20.0%
+  left_knee_range: 0.0%
+  right_knee_range: 0.0%
+  knee_range_asymmetry_percent: 0.0%
+  left_arm_swing_proxy: 0.0%
+  right_arm_swing_proxy: 0.0%
+  arm_swing_asymmetry: 0.0%
+  hip_center_lateral_sway_proxy: 0.0%
+
+Limitations: small self-collected dataset; controlled variation is not clinical abnormal gait; monocular depth ambiguity; pose and event-detection uncertainty; no clinical validation.
+
+Conclusion: use measured feature changes and participant-grouped metrics to judge feasibility. Do not make disease or medical claims.
