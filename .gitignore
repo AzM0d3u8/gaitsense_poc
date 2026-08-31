@@ -1,0 +1,17 @@
+videos/
+output/
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.MP4
+*.MOV
+*.AVI
+*.MKV
+Test walking videos*/
+*.task
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
