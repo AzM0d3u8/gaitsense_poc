@@ -1,0 +1,9 @@
+video,fps,start_frame,end_frame,walking_time_seconds,walking_distance_m,walking_speed_mps,measurement_method,note
+IMG_6834,59.974,52,411,5.985929,4.0,0.668234,visual_boundary_estimate,"First/last clearly visible side-view walking portions"
+IMG_6835,59.968,145,524,6.320570,4.0,0.632908,visual_boundary_estimate,"First/last clearly visible side-view walking portions"
+IMG_6836,59.976,0,238,3.968251,4.0,1.008000,visual_boundary_estimate,"Visible approach interval; no physical start marker in video"
+IMG_6839,59.965,66,330,4.402234,4.0,0.908561,visual_boundary_estimate,"Visible approach interval; no physical start marker in video"
+IMG_6840,59.969,87,516,7.153763,4.0,0.559152,visual_boundary_estimate,"First/last clearly visible side-view walking portions"
+IMG_6841,59.968,105,475,6.170044,4.0,0.648303,visual_boundary_estimate,"Visible approach interval; no physical start marker in video"
+IMG_6843,59.970,151,540,6.486577,4.0,0.616658,visual_boundary_estimate,"First/last clearly visible side-view walking portions"
+IMG_6845,59.974,105,460,5.919565,4.0,0.675763,visual_boundary_estimate,"Visible approach interval; no physical start marker in video"
